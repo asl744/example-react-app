@@ -1,0 +1,5 @@
+docker build -t example-react-app .
+
+docker run --rm -it -p 8080:80 example-react-app
+
+http://localhost:8080/
